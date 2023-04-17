@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Which of the following keywords is used to define a variable in Javascript?",
+      "answer_1": "var",
+      "answer_2": "let",
+      "answer_3": " var and let",
+      "answer_4": "None of the above",
+      "right_answer": " var and let"
+    },
+    {
+      "title": "Which of the following methods is used to access HTML elements using Javascript?",
+      "answer_1": "getElementbyId",
+      "answer_2": "getElementByClassName()",
+      "answer_3": "getElementbyId & getElementByClassName()",
+      "answer_4": "None of the above",
+      "right_answer": "getElementbyId & getElementByClassName()"
+    },
+    {
+      "title": "Javascript is an _______ language?",
+      "answer_1": "Object-Oriented",
+      "answer_2": "Object-Based",
+      "answer_3": "Procedural",
+      "answer_4": "None of the above",
+      "right_answer": "Object-Oriented"
+    },
+    {
+      "title": "Which of the following methods can be used to display data in some form using Javascript?",
+      "answer_1": "document.write()",
+      "answer_2": "console.log()",
+      "answer_3": "window.alert()",
+      "answer_4": "All of the above",
+      "right_answer": "All of the above"
+    },
+    {
+      "title": "How can a datatype be declared to be a constant type?",
+      "answer_1": "const",
+      "answer_2": "var",
+      "answer_3": "let",
+      "answer_4": "constant",
+      "right_answer": "const"
+    }
+  ]

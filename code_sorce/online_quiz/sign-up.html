@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Sign Up</h2>
+        </div>
+        <!-- onsubmit="return validateForm()" -->
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Full Name</label>
+                <input type="text" placeholder="Your Name" id="username" class="username" />
+
+
+
+            </div>
+            <div class="form-control">
+                <label for="username">Email Address</label>
+                <input class="email" type="text" placeholder="Your Email" id="email" />
+
+
+
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" class="password" />
+
+
+
+            </div>
+            <div class="form-control">
+                <label for="username">Confirm Password</label>
+                <input type="password" placeholder="Type the Password again" id="password2" />
+
+
+
+
+            </div>
+            <div class="form-control" id="acc">
+                <input type="checkbox" id="accept" name="accept" value="policy">
+                <label for="accept" id="label_acc"> I accepts the Policy and Terms </label>
+
+            </div>
+
+            <!-- <input type="submit" placeholder="Submit" id="sub"> -->
+            <button id="sub">Submit</button>
+            <small class="small_err"></small>
+        </form>
+    </div>
+
+
+    <div> 
+        <small> <a href="login.html" id="have_account">Do You Have Account Already?</a></small>
+    </div>
+
+    <!-- <a  href="file:///C:/Users/Orange/Desktop/sign-up%20&%20login/Hello.html" id="myLink" target="_blank" >Link</a> -->
+
+
+
+
+
+    <script src="js/sign.js"></script>
+</body>
+
+</html>
